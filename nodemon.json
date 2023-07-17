@@ -1,0 +1,16 @@
+{
+  "restartable": "r",
+  "ignore": [
+    ".git",
+    ".idea",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "watch": [
+    "src/**/*"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts json"
+}
