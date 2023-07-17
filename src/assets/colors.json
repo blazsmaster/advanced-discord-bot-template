@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bittersweet",
+    "hex": "#FA8072"
+  },
+  {
+    "name": "Blue Marguerite",
+    "hex": "#6A5ACD"
+  },
+  {
+    "name": "Coral",
+    "hex": "#FF7F50"
+  },
+  {
+    "name": "Crimson",
+    "hex": "#DC143C"
+  },
+  {
+    "name": "Golden Grass",
+    "hex": "#DAA520"
+  },
+  {
+    "name": "Lavender Magenta",
+    "hex": "#EE82EE"
+  },
+  {
+    "name": "Light Orchid",
+    "hex": "#DDA0DD"
+  },
+  {
+    "name": "Magenta",
+    "hex": "#FF00FF"
+  },
+  {
+    "name": "Maroon",
+    "hex": "#800000"
+  },
+  {
+    "name": "Moon Raker",
+    "hex": "#E6E6FA"
+  },
+  {
+    "name": "Olive",
+    "hex": "#808000"
+  },
+  {
+    "name": "Outrageous Orange",
+    "hex": "#FF6347"
+  },
+  {
+    "name": "Pigment Indigo",
+    "hex": "#4B0082"
+  },
+  {
+    "name": "Pizazz",
+    "hex": "#FF8C00"
+  },
+  {
+    "name": "Raw Sienna",
+    "hex": "#CD853F"
+  },
+  {
+    "name": "Sandy Brown",
+    "hex": "#F4A460"
+  },
+  {
+    "name": "Steel Blue",
+    "hex": "#4682B4"
+  },
+  {
+    "name": "Teal",
+    "hex": "#008080"
+  },
+  {
+    "name": "Turquoise",
+    "hex": "#40E0D0"
+  },
+  {
+    "name": "Twilight Blue",
+    "hex": "#F0FFFF"
+  }
+]
