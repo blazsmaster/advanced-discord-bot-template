@@ -1,0 +1,55 @@
+{
+  "name": "advanced-discord-bot-handler",
+  "version": "1.0.0",
+  "description": "Advanced discord bot handler build with discord.js v14",
+  "main": "dist/index.js",
+  "repository": "https://github.com/blazsmaster/advanced-discord-bot-handler.git",
+  "author": "x426ce17a73 <64538277+blazsmaster@users.noreply.github.com>",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "typescript",
+    "bot",
+    "handler",
+    "slash-commands"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev src/index.ts --respawn --transpile-only --trace-deprecation --trace-warnings",
+    "watch": "nodemon dist/index.js",
+    "watch:dev": "nodemon --exec ts-node-dev src/index.ts",
+    "deploy": "node dist/scripts/deploy.js global",
+    "deploy:dev": "ts-node-dev src/scripts/deploy.ts global",
+    "deploy:guild": "node dist/scripts/deploy.js guild",
+    "deploy:guild:dev": "ts-node-dev src/scripts/deploy.ts guild",
+    "destroy": "node dist/scripts/destroy.js global",
+    "destroy:dev": "ts-node-dev src/scripts/destroy.ts global",
+    "destroy:guild": "node dist/scripts/destroy.js guild",
+    "destroy:guild:dev": "ts-node-dev src/scripts/destroy.ts guild",
+    "lint": "eslint --ext .ts ."
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "colors": "^1.4.0",
+    "discord.js": "14.11.0",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "moment": "2.29.4",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "@types/node": "18.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}
